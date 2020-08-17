@@ -12,7 +12,7 @@ github_repo: "" # you code repository
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "As you wish."
-sidebar-avatar: https://s1.ax1x.com/2020/08/15/dAEUU0.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about/touxiang.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
