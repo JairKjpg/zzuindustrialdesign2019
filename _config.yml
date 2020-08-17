@@ -1,0 +1,105 @@
+# Site settings
+title: JairKou's Blog
+SEOTitle: 卓尔酱的博客 | JairKou's Blog
+header-img: img/post-bg-desk.jpg
+email: JairKou@qq.com
+description: "身与心去为明日奔驰"
+keyword: "Jair, Jair Blog, 卓尔的博客, zhuoer, デザイン, Apple, iPhone，Microsoft Fluent Design"
+url: "http://JairKjpg.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "As you wish."
+sidebar-avatar: https://s1.ax1x.com/2020/08/15/dAEUU0.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: true
+# weibo_username:     
+zhihu_username:     
+github_username:    
+facebook_username:  
+jianshu_username:   
+#twitter_username:   
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（）
+# disqus_username: 
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID:       '4dfbca5df01f673195b6'                      #生成的clientID
+  clientSecret:   'acc003e3d34c6c16b864f16b1fd147c9f8542c0a'  #生成的clientSecret
+  repo: 'jairkjpg.github.io' #仓库名称
+  owner: 'jairkjpg'  #github用户名
+  admin: 'jairkjpg'
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 9e09a40a8d4c34d644759069c94953d5
+
+# Google Analytics
+ga_track_id: 'UA-175506996-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto            			    # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "jialong GitHub.io",
+        href: "https://jialong-c.github.io/about/"
+    }
+]
