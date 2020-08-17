@@ -6,8 +6,8 @@ email: JairKou@qq.com
 description: "身与心去为明日奔驰"
 keyword: "工业设计, ZZUID, industrial design, デザイン, Apple, iPhone，Microsoft Fluent Design"
 url: "https://jairkjpg.github.io/zzuindustrialdesign2019"          # your host, for absolute URL
-baseurl: "https://jairkjpg.github.io/zzuindustrialdesign2019/"      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://jairkjpg.github.io/zzuindustrialdesign2019/" # you code repository
+baseurl: "https://jairkjpg.github.io/zzuindustrialdesign2019"      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://jairkjpg.github.io/zzuindustrialdesign2019" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
